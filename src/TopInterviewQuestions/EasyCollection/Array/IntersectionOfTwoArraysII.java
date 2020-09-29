@@ -3,10 +3,14 @@ package TopInterviewQuestions.EasyCollection.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/*
+Given two arrays, write a function to compute their intersection.
+*/
+
 public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
 
-        ArrayList<Integer> arr= new ArrayList<Integer>();
+        ArrayList<Integer> arr= new ArrayList<>();
         Arrays.sort(nums1); Arrays.sort(nums2);
         int i=0, j=0;
 
